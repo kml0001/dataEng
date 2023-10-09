@@ -1,0 +1,18 @@
+[
+    {
+        "id": 177,
+        "name": "gsi-Marketing-Service",
+        "identifier": "gsi-marketing-service",
+        "description": "",
+        "status": 1,
+        "is_public": true,
+        "inherit_members": true,
+        "custom_fields_id": 15,
+        "custom_fields_name": "Project Type",
+        "custom_fields_value": "Services",
+        "created_on": "2022-12-12T13:40:31Z",
+        "updated_on": "2023-02-12T13:40:31Z",
+        "parent_id": -1,
+        "parent_name": -1
+    }
+]

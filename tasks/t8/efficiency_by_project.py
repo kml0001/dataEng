@@ -36,8 +36,8 @@ def issue_have_child(all_issues, issue):
     return result
 
 
-projects_json_path = '../../projects/flattened_projects.json'
-issues_json_path = '../../issues/flattened_issues.json'
+projects_json_path = '../../tests/test_projects.json'
+issues_json_path = '../../tests/test_issues.json'
 
 with open(projects_json_path, 'r') as json_file:
     all_projects = json.load(json_file)
@@ -48,9 +48,6 @@ with open(issues_json_path, 'r') as json_file:
 projects_efficiency = {}
 
 for project in all_projects:
-    project_id_str = str(project['id'])
-    projects_efficiency[project_id_str] = {}
-
     initial_date_str = project['created_on']
     initial_date_date = datetime.datetime.strptime(initial_date_str, "%Y-%m-%dT%H:%M:%SZ").date()
 
@@ -89,9 +86,18 @@ for project in all_projects:
         if not (task_scheduled == 0):
             p_eff = ((task_accomplished - task_delayed) / task_scheduled) * 100
 
-        month_str = datetime.datetime.strftime(initial_date_date, "%m-%Y")
-        projects_efficiency[project_id_str][month_str] = p_eff
+        month_year_str = datetime.datetime.strftime(initial_date_date, "%m-%Y")
+        month, year = month_year_str.split('-')
+        projects_efficiency[f"{project['id']}_{month_year_str}"] = {
+            'name' : project['name'],
+            'month' : month,
+            'year' : year,
+            'tasks_acomplished' : task_accomplished,
+            'tasks_delayed' : task_delayed,
+            'tasks_scheduled' : task_scheduled,
+            'efficiency' : p_eff
+        }
         initial_date_date += increment
 
-with open('efficiency_by_project.json', 'w') as file:
+with open('../../tests/test_efficiency.json', 'w') as file:
     json.dump(projects_efficiency, file, indent=4)

@@ -1,9 +1,10 @@
-closed_on,assigned_to_id,id,subject,done_ratio,fixed_version_id,tracker_id,custom_fields_id,updated_on,project_name,custom_fields_name,is_private,parent_id,priority_id,status_id,created_on,priority_name,project_id,assigned_to_name,fixed_version_name,description,custom_fields_value,start_date,due_date,author_name,tracker_name,author_id,status_name,estimated_hours
-,220,48886,Meeting,0,-1,2,-1,2023-10-07T20:36:35Z,Servitally,-1,False,-1,2,1,2023-10-07T20:04:22Z,Normal,166,Maidelis  Jorge Reyes,-1,,-1,2023-10-09,2023-10-27,Maidelis  Jorge Reyes,Task,220,TO DO,
-,220,48885,Testing,0,-1,2,-1,2023-10-07T20:36:18Z,Servitally,-1,False,-1,2,1,2023-10-07T20:03:34Z,Normal,166,Maidelis  Jorge Reyes,-1,,-1,2023-10-09,2023-10-27,Maidelis  Jorge Reyes,Task,220,TO DO,
-,220,48884,Tareas generales,0,-1,2,-1,2023-10-07T20:35:48Z,Servitally,-1,False,-1,2,1,2023-10-07T20:03:10Z,Normal,166,Maidelis  Jorge Reyes,-1,,-1,2023-10-09,2023-10-27,Maidelis  Jorge Reyes,Task,220,TO DO,
-,216,48867,Implementar modal de descargando manifiesto mientras ocurre dicho proceso,0,226,2,-1,2023-10-06T20:56:53Z,gsi-Aerovaradero,-1,False,-1,2,11,2023-10-06T20:55:57Z,Normal,131,Yoel Antonio  Casado González,Last Sprint,,-1,2023-10-06,2023-10-06,Lena Alvarez,Task,206,READY TO QA,2.0
-,302,48838,"[Pantalla principal] Los botones del dash y el adicionar tara Se muestra nabilitados si la báscula ACTIVA muestra en el campo “Estado de la báscula” los tres valores “E”, “A” y “B” (en el caso de tener configurado en el instrumento barreras infrarrojas)",0,-1,1,1,2023-10-06T21:19:49Z,Servitally,Severity,False,-1,2,19,2023-10-06T17:42:58Z,Normal,166,Dunaikelys Mesa,-1,"*User:* Admin
+done_ratio,tracker_name,is_private,fixed_version_id,tracker_id,assigned_to_id,priority_id,id,assigned_to_name,estimated_hours,custom_fields_value,project_id,author_name,author_id,fixed_version_name,parent_id,custom_fields_id,created_on,status_name,description,priority_name,closed_on,subject,start_date,custom_fields_name,updated_on,project_name,due_date,status_id
+100,Task,False,-1,2,220,2,48937,Maidelis  Jorge Reyes,2.0,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-09T16:36:30Z,DONE,,Normal,,Actualización del backlog. Se hizo un levantamiento de las funcionalidades pendientes a actualizar y se agregaron al backlog y al sprint correspondiente,2023-10-06,-1,2023-10-09T16:36:39Z,Servitally,2023-10-06,3
+0,Task,False,-1,2,220,2,48886,Maidelis  Jorge Reyes,,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-07T20:04:22Z,TO DO,,Normal,,Meeting,2023-10-09,-1,2023-10-07T20:36:35Z,Servitally,2023-10-27,1
+0,Task,False,-1,2,220,2,48885,Maidelis  Jorge Reyes,,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-07T20:03:34Z,TO DO,,Normal,,Testing,2023-10-09,-1,2023-10-07T20:36:18Z,Servitally,2023-10-27,1
+0,Task,False,-1,2,220,2,48884,Maidelis  Jorge Reyes,,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-07T20:03:10Z,TO DO,,Normal,,Tareas generales,2023-10-09,-1,2023-10-07T20:35:48Z,Servitally,2023-10-27,1
+0,Task,False,226,2,216,2,48867,Yoel Antonio  Casado González,2.0,-1,131,Lena Alvarez,206,Last Sprint,-1,-1,2023-10-06T20:55:57Z,READY TO QA,,Normal,,Implementar modal de descargando manifiesto mientras ocurre dicho proceso,2023-10-06,-1,2023-10-06T20:56:53Z,gsi-Aerovaradero,2023-10-06,11
+0,Bugs,False,-1,1,302,2,48838,Dunaikelys Mesa,16.0,2,166,Maidelis  Jorge Reyes,220,-1,-1,1,2023-10-06T17:42:58Z,COMPLETED LOCAL,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Pantalla principal
 *Section/functionality:* Pantalla principal
@@ -16,8 +17,8 @@ muestra activos los botones del dash y el adicionar tara
 !clipboard-202310061342-clgge.png!
 
 *Expected behavior:*
-Los botones del dash y el adicionar tara Se muestra nabilitados si la báscula ACTIVA muestra en el campo “Estado de la báscula” los tres valores “E”, “A” y “B” (en el caso de tener configurado en el instrumento barreras infrarrojas)",2,2023-09-27,2023-09-29,Maidelis  Jorge Reyes,Bugs,220,COMPLETED LOCAL,16.0
-,307,48815,[Prueba de comprobación] El campo diferencia solo se pinta de rojo si el valor populado es distinto de cero y no lleva valor por defecto,50,-1,1,1,2023-10-07T15:56:34Z,Servitally,Severity,False,46766,2,2,2023-10-06T14:13:13Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+Los botones del dash y el adicionar tara Se muestra nabilitados si la báscula ACTIVA muestra en el campo “Estado de la báscula” los tres valores “E”, “A” y “B” (en el caso de tener configurado en el instrumento barreras infrarrojas)",Normal,,"[Pantalla principal] Los botones del dash y el adicionar tara Se muestra nabilitados si la báscula ACTIVA muestra en el campo “Estado de la báscula” los tres valores “E”, “A” y “B” (en el caso de tener configurado en el instrumento barreras infrarrojas)",2023-09-27,Severity,2023-10-06T21:19:49Z,Servitally,2023-09-29,19
+50,Bugs,False,-1,1,307,2,48815,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T14:13:13Z,IN PROGRESS,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -31,8 +32,8 @@ muestra valor por defecto en el campo diferencia y lo muestra pintado de rojo si
 !clipboard-202310061012-pkruq.png!
 
 *Expected behavior:*
-El campo diferencia solo se pinta de rojo si el valor populado es distinto de cero y no lleva valor por defecto",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,IN PROGRESS,
-,307,48814,[Configuraciones de seguridad] Se cortan los mensajes de error en los campos correspondientes,50,-1,1,1,2023-10-07T15:55:41Z,Servitally,Severity,False,46766,2,2,2023-10-06T14:11:15Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+El campo diferencia solo se pinta de rojo si el valor populado es distinto de cero y no lleva valor por defecto",Normal,,[Prueba de comprobación] El campo diferencia solo se pinta de rojo si el valor populado es distinto de cero y no lleva valor por defecto,2023-09-26,Severity,2023-10-07T15:56:34Z,Servitally,2023-10-06,2
+50,Bugs,False,-1,1,307,2,48814,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T14:11:15Z,IN PROGRESS,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Configuraciones de seguridad
 *Section/functionality:* Configuraciones de seguridad
@@ -49,8 +50,8 @@ Se cortan los mensajes de error en los campos correspondientes
 !clipboard-202310061010-wkzex.png!
 
 *Expected behavior:*
-",2,2023-10-05,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,IN PROGRESS,
-,307,48812,"[Prueba de comprobación] Se debe concatenar ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada y diferencia.",100,-1,1,1,2023-10-07T15:45:24Z,Servitally,Severity,False,46766,2,2,2023-10-06T13:57:57Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+",Normal,,[Configuraciones de seguridad] Se cortan los mensajes de error en los campos correspondientes,2023-10-05,Severity,2023-10-07T15:55:41Z,Servitally,2023-10-06,2
+100,Bugs,False,-1,1,307,2,48812,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:57:57Z,IN PROGRESS,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -68,8 +69,8 @@ no concatena ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada
 !clipboard-202310060956-5wbmt.png!
 
 *Expected behavior:*
-Se debe concatenar ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada y diferencia.",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,IN PROGRESS,
-,307,48808,[Prueba de comprobación] Los campos básculas no llevan valores por defecto,50,-1,1,1,2023-10-06T13:49:34Z,Servitally,Severity,False,46766,2,1,2023-10-06T13:49:34Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+Se debe concatenar ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada y diferencia.",Normal,,"[Prueba de comprobación] Se debe concatenar ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada y diferencia.",2023-09-26,Severity,2023-10-07T15:45:24Z,Servitally,2023-10-06,2
+50,Bugs,False,-1,1,307,2,48808,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:49:34Z,TO DO,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -85,8 +86,8 @@ muestra valores por defectos en los campos básculas sin haber realizado las pesa
 *Expected behavior:*
 Los campos básculas no llevan valores por defecto
 !clipboard-202310060948-ny5b2.png!
-",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,TO DO,
-,307,48806,[Recuperar vehículo eliminado] No se están listando todos los vehiculos eliminados.,0,-1,1,1,2023-10-06T13:47:11Z,Servitally,Severity,False,46766,2,1,2023-10-06T13:47:11Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+",Normal,,[Prueba de comprobación] Los campos básculas no llevan valores por defecto,2023-09-26,Severity,2023-10-06T13:49:34Z,Servitally,2023-10-06,1
+0,Bugs,False,-1,1,307,2,48806,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:47:11Z,TO DO,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Pantalla principal
 *Section/functionality:* Pantalla principal
@@ -99,8 +100,8 @@ No se están listando todos los vehiculos eliminados.
 !clipboard-202310060946-rjzix.png!
 
 *Expected behavior:*
- Se debe mostrar el listado de todos los vehiculos eliminados ordenado por fecha y hora de manera descendente",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,TO DO,
-,307,48805,[Recuperar vehículo eliminado] Se debe mostrar el listado ordenado por fecha y hora de manera descendente,0,-1,1,1,2023-10-06T13:44:52Z,Servitally,Severity,False,46766,2,1,2023-10-06T13:44:52Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+ Se debe mostrar el listado de todos los vehiculos eliminados ordenado por fecha y hora de manera descendente",Normal,,[Recuperar vehículo eliminado] No se están listando todos los vehiculos eliminados.,2023-09-26,Severity,2023-10-06T13:47:11Z,Servitally,2023-10-06,1
+0,Bugs,False,-1,1,307,2,48805,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:44:52Z,TO DO,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Pantalla principal
 *Section/functionality:* Pantalla principal
@@ -113,15 +114,15 @@ no se muestra el listado ordenado por fecha y hora de mannera descendente
 !clipboard-202310060944-uwfcr.png!
 
 *Expected behavior:*
- Se debe mostrar el listado ordenado por fecha y hora de manera descendente",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,TO DO,
-,302,48778,Crear build de la aplicación,100,-1,2,-1,2023-10-06T16:55:33Z,Servitally,-1,False,-1,2,3,2023-10-05T20:54:39Z,Normal,166,Dunaikelys Mesa,-1,,-1,2023-10-05,2023-10-06,Dunaikelys Mesa,Task,302,DONE,
-,216,48768,"[Delivery] Al ejecutar el cierre a un manifiesto que estaba con Estado Cierre Parcial, no captura la ultima fecha de cierre, mantiene la fecha del primer cierre ejecutado",0,226,1,1,2023-10-06T20:50:01Z,gsi-Aerovaradero,Severity,False,-1,2,11,2023-10-05T20:03:31Z,Normal,131,Yoel Antonio  Casado González,Last Sprint,,3,2023-10-04,,Yoel Antonio  Casado González,Bugs,216,READY TO QA,
-,206,48765,Imolementar que alerte cuando el comprobante exista en el manifiesto actual en el modal de escaneo,100,226,2,-1,2023-10-05T19:25:19Z,gsi-Aerovaradero,-1,False,-1,2,3,2023-10-05T19:25:09Z,Normal,131,Lena Alvarez,Last Sprint,,-1,2023-10-05,2023-10-05,Lena Alvarez,Task,206,DONE,1.0
-,206,48764,Revision del problema en desconsolidacion al descargar manifiesto con la base de datos enviada por AeroVaradero,0,226,2,-1,2023-10-05T19:21:00Z,gsi-Aerovaradero,-1,False,-1,2,2,2023-10-05T19:20:52Z,Normal,131,Lena Alvarez,Last Sprint,,-1,2023-10-05,2023-10-06,Lena Alvarez,Task,206,IN PROGRESS,8.0
-,216,48720,[Delivery] Al Modificar un manifiesto sale habilitada la columna para eliminar facturas.,0,226,1,1,2023-10-05T16:39:29Z,gsi-Aerovaradero,Severity,False,-1,2,11,2023-10-05T14:32:49Z,Normal,131,Yoel Antonio  Casado González,Last Sprint,"Esta columna no se debe habilitar para ningun estado en el *Modificar*.
+ Se debe mostrar el listado ordenado por fecha y hora de manera descendente",Normal,,[Recuperar vehículo eliminado] Se debe mostrar el listado ordenado por fecha y hora de manera descendente,2023-09-26,Severity,2023-10-06T13:44:52Z,Servitally,2023-10-06,1
+100,Task,False,-1,2,302,2,48778,Dunaikelys Mesa,,-1,166,Dunaikelys Mesa,302,-1,-1,-1,2023-10-05T20:54:39Z,DONE,,Normal,,Crear build de la aplicación,2023-10-05,-1,2023-10-06T16:55:33Z,Servitally,2023-10-06,3
+0,Bugs,False,226,1,216,2,48768,Yoel Antonio  Casado González,,3,131,Yoel Antonio  Casado González,216,Last Sprint,-1,1,2023-10-05T20:03:31Z,READY TO QA,,Normal,,"[Delivery] Al ejecutar el cierre a un manifiesto que estaba con Estado Cierre Parcial, no captura la ultima fecha de cierre, mantiene la fecha del primer cierre ejecutado",2023-10-04,Severity,2023-10-06T20:50:01Z,gsi-Aerovaradero,,11
+100,Task,False,226,2,206,2,48765,Lena Alvarez,1.0,-1,131,Lena Alvarez,206,Last Sprint,-1,-1,2023-10-05T19:25:09Z,DONE,,Normal,,Imolementar que alerte cuando el comprobante exista en el manifiesto actual en el modal de escaneo,2023-10-05,-1,2023-10-05T19:25:19Z,gsi-Aerovaradero,2023-10-05,3
+0,Task,False,226,2,206,2,48764,Lena Alvarez,8.0,-1,131,Lena Alvarez,206,Last Sprint,-1,-1,2023-10-05T19:20:52Z,IN PROGRESS,,Normal,,Revision del problema en desconsolidacion al descargar manifiesto con la base de datos enviada por AeroVaradero,2023-10-05,-1,2023-10-05T19:21:00Z,gsi-Aerovaradero,2023-10-06,2
+0,Bugs,False,226,1,216,2,48720,Yoel Antonio  Casado González,,3,131,Yoel Antonio  Casado González,216,Last Sprint,-1,1,2023-10-05T14:32:49Z,READY TO QA,"Esta columna no se debe habilitar para ningun estado en el *Modificar*.
 
-",3,2023-10-04,,Yoel Antonio  Casado González,Bugs,216,READY TO QA,
-,307,48719,[Prueba de comprobación] La Matrícula es un campo autocompetable que debe permitir insertar y seleccionar una matrícula,50,-1,1,1,2023-10-06T03:50:34Z,Servitally,Severity,False,46766,2,2,2023-10-05T14:03:46Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+",Normal,,[Delivery] Al Modificar un manifiesto sale habilitada la columna para eliminar facturas.,2023-10-04,Severity,2023-10-05T16:39:29Z,gsi-Aerovaradero,,11
+50,Bugs,False,-1,1,307,2,48719,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T14:03:46Z,IN PROGRESS,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -134,8 +135,8 @@ No permite insertar una nueva matrícula
 !clipboard-202310051002-qchlw.png!
 
 *Expected behavior:*
-Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,IN PROGRESS,
-,307,48718,[Prueba de comprobación] Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.,100,-1,1,1,2023-10-06T03:49:14Z,Servitally,Severity,False,46766,2,3,2023-10-05T14:01:28Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.",Normal,,[Prueba de comprobación] La Matrícula es un campo autocompetable que debe permitir insertar y seleccionar una matrícula,2023-09-26,Severity,2023-10-06T03:50:34Z,Servitally,2023-10-06,2
+100,Bugs,False,-1,1,307,2,48718,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T14:01:28Z,DONE,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -149,8 +150,8 @@ No se popula el nombre y apellido correspondiente al chofer seleccionado en el c
 !clipboard-202310051000-fmjoy.png!
 
 *Expected behavior:*
-Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,DONE,
-,307,48717,[Prueba de comprobación] No se muestran los campos alineados,50,-1,1,1,2023-10-06T03:47:23Z,Servitally,Severity,False,46766,2,2,2023-10-05T14:00:25Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.",Normal,,[Prueba de comprobación] Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.,2023-09-26,Severity,2023-10-06T03:49:14Z,Servitally,2023-10-06,3
+50,Bugs,False,-1,1,307,2,48717,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T14:00:25Z,IN PROGRESS,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -164,8 +165,8 @@ No se muestran los campos alineados.
 !clipboard-202310050959-shncm.png!
 
 *Expected behavior:*
-La pantalla debe mostrarse acorde al diseño en figma.",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,IN PROGRESS,
-,307,48715,[Prueba de comprobación] Al dar clic en el botón 2da pesada se debe desbloquear la báscula no activa y ocultar el botón 2da pesada,0,-1,1,1,2023-10-06T03:45:08Z,Servitally,Severity,False,46766,2,2,2023-10-05T13:57:52Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+La pantalla debe mostrarse acorde al diseño en figma.",Normal,,[Prueba de comprobación] No se muestran los campos alineados,2023-09-26,Severity,2023-10-06T03:47:23Z,Servitally,2023-10-06,2
+0,Bugs,False,-1,1,307,2,48715,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:57:52Z,IN PROGRESS,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -183,8 +184,8 @@ no se desbloquea la bascula no activa ni oculta el botón 2da pesada
 !clipboard-202310050956-rpcfx.png!
 
 *Expected behavior:*
- Al dar clic en el botón 2da pesada se debe desbloquear la báscula no activa y ocultar el botón 2da pesada",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,IN PROGRESS,
-,307,48714,[Prueba de comprobación] Al dar clic en el botón 1era pesada se debe desbloquear la báscula activa y ocultar el botón 1era pesada,100,-1,1,1,2023-10-06T03:38:56Z,Servitally,Severity,False,46766,2,3,2023-10-05T13:56:00Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+ Al dar clic en el botón 2da pesada se debe desbloquear la báscula no activa y ocultar el botón 2da pesada",Normal,,[Prueba de comprobación] Al dar clic en el botón 2da pesada se debe desbloquear la báscula no activa y ocultar el botón 2da pesada,2023-09-26,Severity,2023-10-06T03:45:08Z,Servitally,2023-10-06,2
+100,Bugs,False,-1,1,307,2,48714,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:56:00Z,DONE,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -200,8 +201,8 @@ no se desbloquea la bascula activa ni oculta el botón 1era pesada
 !clipboard-202310050955-yorhx.png!
 
 *Expected behavior:*
- Al dar clic en el botón 1era pesada se debe desbloquear la báscula activa y ocultar el botón 1era pesada",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,DONE,
-,307,48713,[Prueba de comprobación] El botón Salvar solo se muestra luego de realizada la 2da pesada,100,-1,1,1,2023-10-06T03:35:38Z,Servitally,Severity,False,46766,2,3,2023-10-05T13:53:00Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+ Al dar clic en el botón 1era pesada se debe desbloquear la báscula activa y ocultar el botón 1era pesada",Normal,,[Prueba de comprobación] Al dar clic en el botón 1era pesada se debe desbloquear la báscula activa y ocultar el botón 1era pesada,2023-09-26,Severity,2023-10-06T03:38:56Z,Servitally,2023-10-06,3
+100,Bugs,False,-1,1,307,2,48713,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:53:00Z,DONE,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -220,8 +221,8 @@ el botón Salvar se está mostrando deshabilitado antes de realizar la 2da pesada
 !clipboard-202310050952-tws8w.png!
 
 *Expected behavior:*
-el botón Salvar se está mostrando deshabilitado antes de realizar la 2da pesada",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,DONE,
-,307,48712,[Prueba de comprobación] El botón 2da pesada solo se muestra luego de realizada la 1era pesada,100,-1,1,1,2023-10-06T03:33:51Z,Servitally,Severity,False,46766,2,3,2023-10-05T13:51:15Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+el botón Salvar se está mostrando deshabilitado antes de realizar la 2da pesada",Normal,,[Prueba de comprobación] El botón Salvar solo se muestra luego de realizada la 2da pesada,2023-09-26,Severity,2023-10-06T03:35:38Z,Servitally,2023-10-06,3
+100,Bugs,False,-1,1,307,2,48712,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:51:15Z,DONE,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -238,8 +239,8 @@ el botón 2da pesada se está mostrando deshabilitado antes de realizar la 1era pe
 !clipboard-202310050950-w8g7o.png!
 
 *Expected behavior:*
-El botón 2da pesada solo se muestra luego de realizada la 1era pesada",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,DONE,
-,307,48710,[Prueba de comprobación] El botón 1era pesada debe habilitarse cuando la báscula activa seleccionada tenga un peso estable.,100,-1,1,1,2023-10-06T03:32:33Z,Servitally,Severity,False,46766,2,3,2023-10-05T13:33:06Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
+El botón 2da pesada solo se muestra luego de realizada la 1era pesada",Normal,,[Prueba de comprobación] El botón 2da pesada solo se muestra luego de realizada la 1era pesada,2023-09-26,Severity,2023-10-06T03:33:51Z,Servitally,2023-10-06,3
+100,Bugs,False,-1,1,307,2,48710,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:33:06Z,DONE,"*User:* Admin
 *Password:* Servitally.2022
 *Requirement:* Prueba de comprobación
 *Section/functionality:* Prueba de comprobación
@@ -254,19 +255,4 @@ No se habilita el botón 1era pesada
 !clipboard-202310050932-32wla.png!
 
 *Expected behavior:*
-El botón 1era pesada debe habilitarse cuando la báscula activa seleccionada tenga un peso estable.",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,DONE,
-,307,48708,[Recuperar vehículo eliminado] No está filtrando por fecha ,100,-1,1,1,2023-10-06T03:27:39Z,Servitally,Severity,False,46766,2,2,2023-10-05T13:28:23Z,Normal,166,Arlen  Tamayo Labrada,-1,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Pantalla principal
-*Section/functionality:* Pantalla principal
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: clic en recuperar vehículo eliminado de la opción Recuperar del menú.
-* Step 3: insertar en el campo de busqueda una fecha.
-
-*System behavior:*
-Muestra todos los vehiculos eliminados.
-!clipboard-202310050927-paqgl.png!
-
-*Expected behavior:*
-El sistema debe mostrar solo los vehiculos eliminados en la fecha insertada en el campod e búsqueda.",2,2023-09-26,2023-10-06,Maidelis  Jorge Reyes,Bugs,220,IN PROGRESS,
+El botón 1era pesada debe habilitarse cuando la báscula activa seleccionada tenga un peso estable.",Normal,,[Prueba de comprobación] El botón 1era pesada debe habilitarse cuando la báscula activa seleccionada tenga un peso estable.,2023-09-26,Severity,2023-10-06T03:32:33Z,Servitally,2023-10-06,3
