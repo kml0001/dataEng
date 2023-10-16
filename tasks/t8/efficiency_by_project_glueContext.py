@@ -1,5 +1,9 @@
+import csv
 import datetime
 import json
+from io import StringIO
+
+import boto3
 
 
 def generate_same_day_of_next_month(date: datetime.date):
@@ -59,17 +63,24 @@ def issue_have_child(all_issues, issue):
     return result
 
 
-projects_json_path = "projects.json"
-issues_json_path = "issues.json"
+s3 = boto3.client("s3")
 
-with open(projects_json_path, "r") as json_file:
-    all_projects = json.load(json_file)
+projects_bucket_name = "bucketfor008182637297"
+projects_file_key = "redmine/projects/flattened_data/flattened_projects.json"
+issues_bucket_name = "bucketfor008182637297"
+issues_file_key = "redmine/projects/flattened_data/flattened_issues.json"
 
-with open(issues_json_path, "r") as json_file:
-    all_issues = json.load(json_file)
+projects_response = s3.get_object(Bucket=projects_bucket_name, Key=projects_file_key)
+issues_response = s3.get_object(Bucket=issues_bucket_name, Key=issues_file_key)
+
+
+# projects_json_data = projects_response["Body"].read().decode("utf-8")
+# issues_json_data = issues_response["Body"].read().decode("utf-8")
+
+all_projects = json.loads(projects_response["Body"])
+all_issues = json.loads(issues_response["Body"])
 
 projects_efficiency = []
-
 for project in all_projects:
     initial_date_str = project["created_on"]
     initial_date_date = datetime.datetime.strptime(initial_date_str, "%Y-%m-%dT%H:%M:%SZ").date()
@@ -125,5 +136,25 @@ for project in all_projects:
 
         initial_date_date = generate_same_day_of_next_month(initial_date_date)
 
-with open("efficiency.json", "w") as file:
-    json.dump(projects_efficiency, file, indent=4)
+s3.put_object(
+    Body=(bytes(json.dumps(projects_efficiency).encode("UTF-8"))),
+    Bucket="bucketfor008182637297",
+    Key="redmine/projects/flatten_data/projects/projects_efficiency.json",
+)
+
+csv_buffer = StringIO()
+header = projects_efficiency[0].keys()
+
+# Write the CSV data to the in-memory buffer
+writer = csv.DictWriter(csv_buffer, fieldnames=header)
+writer.writeheader()
+writer.writerows(projects_efficiency)
+# Get the CSV contents from the buffer
+csv_content = csv_buffer.getvalue()
+# Close the buffer
+csv_buffer.close()
+s3.put_object(
+    Body=csv_content,
+    Bucket="bucketfor008182637297",
+    Key="redmine/projects/flatten_csv/projects/projects_efficiency_csv.csv",
+)

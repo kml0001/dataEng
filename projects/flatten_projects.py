@@ -1,4 +1,5 @@
 import requests as request
+
 from functions.flatten_functions import flatten_data
 
 headers = {
@@ -7,7 +8,7 @@ headers = {
 
 # params = {'include': 'trackers,issue_categories,enabled_modules,time_entry_activities,issue_custom_fields'}
 
-url = "https://redmine.generalsoftwareinc.com/projects.json"
+url = "https://redmine.generalsoftwareinc.net/projects.json"
 # response = request.get(url, headers=headers, params=params)
 response = request.get(url, headers=headers)
 values = response.json()

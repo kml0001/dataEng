@@ -1,29 +1,13 @@
-{
-    "177_12-2022": {
-        "name": "gsi-Marketing-Service",
+[
+    {
+        "id": "177_12-2022",
+        "project_id": 177,
+        "project_name": "gsi-Marketing-Service",
         "month": "12",
         "year": "2022",
         "tasks_acomplished": 1,
         "tasks_delayed": 3,
         "tasks_scheduled": 3,
         "efficiency": -66.66666666666666
-    },
-    "177_01-2023": {
-        "name": "gsi-Marketing-Service",
-        "month": "01",
-        "year": "2023",
-        "tasks_acomplished": 1,
-        "tasks_delayed": 3,
-        "tasks_scheduled": 0,
-        "efficiency": 0
-    },
-    "177_02-2023": {
-        "name": "gsi-Marketing-Service",
-        "month": "02",
-        "year": "2023",
-        "tasks_acomplished": 1,
-        "tasks_delayed": 3,
-        "tasks_scheduled": 0,
-        "efficiency": 0
     }
-}
+]
