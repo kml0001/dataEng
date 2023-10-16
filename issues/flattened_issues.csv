@@ -1,258 +1,28 @@
-done_ratio,tracker_name,is_private,fixed_version_id,tracker_id,assigned_to_id,priority_id,id,assigned_to_name,estimated_hours,custom_fields_value,project_id,author_name,author_id,fixed_version_name,parent_id,custom_fields_id,created_on,status_name,description,priority_name,closed_on,subject,start_date,custom_fields_name,updated_on,project_name,due_date,status_id
-100,Task,False,-1,2,220,2,48937,Maidelis  Jorge Reyes,2.0,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-09T16:36:30Z,DONE,,Normal,,Actualización del backlog. Se hizo un levantamiento de las funcionalidades pendientes a actualizar y se agregaron al backlog y al sprint correspondiente,2023-10-06,-1,2023-10-09T16:36:39Z,Servitally,2023-10-06,3
-0,Task,False,-1,2,220,2,48886,Maidelis  Jorge Reyes,,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-07T20:04:22Z,TO DO,,Normal,,Meeting,2023-10-09,-1,2023-10-07T20:36:35Z,Servitally,2023-10-27,1
-0,Task,False,-1,2,220,2,48885,Maidelis  Jorge Reyes,,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-07T20:03:34Z,TO DO,,Normal,,Testing,2023-10-09,-1,2023-10-07T20:36:18Z,Servitally,2023-10-27,1
-0,Task,False,-1,2,220,2,48884,Maidelis  Jorge Reyes,,-1,166,Maidelis  Jorge Reyes,220,-1,-1,-1,2023-10-07T20:03:10Z,TO DO,,Normal,,Tareas generales,2023-10-09,-1,2023-10-07T20:35:48Z,Servitally,2023-10-27,1
-0,Task,False,226,2,216,2,48867,Yoel Antonio  Casado González,2.0,-1,131,Lena Alvarez,206,Last Sprint,-1,-1,2023-10-06T20:55:57Z,READY TO QA,,Normal,,Implementar modal de descargando manifiesto mientras ocurre dicho proceso,2023-10-06,-1,2023-10-06T20:56:53Z,gsi-Aerovaradero,2023-10-06,11
-0,Bugs,False,-1,1,302,2,48838,Dunaikelys Mesa,16.0,2,166,Maidelis  Jorge Reyes,220,-1,-1,1,2023-10-06T17:42:58Z,COMPLETED LOCAL,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Pantalla principal
-*Section/functionality:* Pantalla principal
-*Steps:*
-* Step 1: Acceder al sistema
+description,project_id,created_on,id,is_private,tracker_name,status_name,status_id,start_date,assigned_to_id,done_ratio,updated_on,due_date,assigned_to_name,parent_id,author_id,priority_id,estimated_hours,priority_name,closed_on,subject,project_name,author_name,tracker_id
+arsgadsfasdfasdfadsfadsfads,11,2023-09-18T15:47:41Z,395,False,Feature,TO DO,1,2023-09-18,15,40,2023-09-18T15:47:41Z,2023-09-21,Victor Manuel Sire Martinez,-1,15,2,5.0,Normal,,leer ;,Data_Project,Victor Manuel Sire Martinez,2
+,11,2023-09-14T16:55:09Z,394,False,Feature,Resolved,3,2023-09-14,12,70,2023-09-19T00:27:54Z,,Alejandro Rosete,-1,12,2,3.0,Normal,2023-09-19T00:26:25Z,4. Definición de tarea de PWeb para estudiantes ajustado a interés del proyecto,Data_Project,Alejandro Rosete,2
+,11,2023-09-14T16:04:53Z,393,False,Feature,TO DO,1,2023-09-14,15,0,2023-09-14T16:05:13Z,,Victor Manuel Sire Martinez,377,12,2,5.0,Normal,,"2.4 Lectura superficial de otras partes (Cap 5,6, 11-)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T16:03:01Z,391,False,Feature,TO DO,1,2023-09-14,13,0,2023-09-14T16:04:16Z,,Camilo Chamorro Calas,377,12,2,5.0,Normal,,"2.4 Lectura superficial de otras partes (Cap 5,6, 11-)",Data_Project,Alejandro Rosete,2
+"El lunes en el encuentro, el profe Emilio les dará una breve introducción a Redmine y aclarará dudas a partir de las interacciones que ya vayan teniendo esta semana.",11,2023-09-14T15:56:17Z,390,False,Feature,IN PROGRESS,2,2023-09-18,12,10,2023-09-14T15:57:57Z,,Alejandro Rosete,-1,12,2,1.0,Normal,,3. Seminario introducción y dudas sobre Redmine (con profe Emilio),Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:49:36Z,389,False,Feature,TO DO,1,2023-09-18,12,0,2023-09-14T15:49:46Z,2023-09-18,Alejandro Rosete,365,12,2,1.0,Normal,,Prueba rápida sobre conocimientos Parte 2 Libro,Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:42:35Z,387,False,Feature,TO DO,1,2023-09-14,15,0,2023-09-14T15:42:55Z,,Victor Manuel Sire Martinez,377,12,2,7.0,Normal,,"2.3 Estudio libro AWS Part 3: Storing data in the cloud (Cap 7-10, 90p)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:41:23Z,386,False,Feature,TO DO,1,2023-09-14,14,0,2023-09-14T15:42:09Z,,Leonardo Perez,377,12,2,7.0,Normal,,"2.3 Estudio libro AWS Part 3: Storing data in the cloud (Cap 7-10, 90p)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:40:33Z,385,False,Feature,TO DO,1,2023-09-14,13,0,2023-09-14T15:40:56Z,,Camilo Chamorro Calas,377,12,2,7.0,Normal,,"2.3 Estudio libro AWS Part 3: Storing data in the cloud (Cap 7-10, 90p)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:37:56Z,384,False,Feature,TO DO,1,2023-09-14,15,0,2023-09-14T15:39:05Z,,Victor Manuel Sire Martinez,377,12,2,7.0,Normal,,"2.2 Estudio libro AWS Part 2: Building virtual infrastructure consisting of computers and networking (Cap 3, 4: 80p)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:36:56Z,383,False,Feature,TO DO,1,2023-09-14,14,0,2023-09-14T15:37:25Z,,Leonardo Perez,377,12,2,7.0,Normal,,"2.2 Estudio libro AWS Part 2: Building virtual infrastructure consisting of computers and networking (Cap 3, 4: 80p)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:34:02Z,381,False,Feature,TO DO,1,2023-09-18,15,0,2023-09-14T15:38:37Z,,Victor Manuel Sire Martinez,377,12,2,,Normal,,"2.1 Estudio libro AWS Part 1: Getting started (Cap 1, 2: 50p)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T15:30:51Z,379,False,Feature,TO DO,1,2023-09-14,14,0,2023-09-14T15:38:24Z,,Leonardo Perez,377,12,2,4.0,Normal,,"2.1 Estudio libro AWS Part 1: Getting started (Cap 1, 2: 50p)",Data_Project,Alejandro Rosete,2
+"Amazon_Web_Services_in_Action_An_in_depth_guide_to_AWS,_3rd_Edition.pdf
 
-*System behavior:*
-muestra activos los botones del dash y el adicionar tara
-!clipboard-202310061342-lvxpz.png!
-!clipboard-202310061342-clgge.png!
-
-*Expected behavior:*
-Los botones del dash y el adicionar tara Se muestra nabilitados si la báscula ACTIVA muestra en el campo “Estado de la báscula” los tres valores “E”, “A” y “B” (en el caso de tener configurado en el instrumento barreras infrarrojas)",Normal,,"[Pantalla principal] Los botones del dash y el adicionar tara Se muestra nabilitados si la báscula ACTIVA muestra en el campo “Estado de la báscula” los tres valores “E”, “A” y “B” (en el caso de tener configurado en el instrumento barreras infrarrojas)",2023-09-27,Severity,2023-10-06T21:19:49Z,Servitally,2023-09-29,19
-50,Bugs,False,-1,1,307,2,48815,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T14:13:13Z,IN PROGRESS,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-
-*System behavior:*
-muestra valor por defecto en el campo diferencia y lo muestra pintado de rojo siempre
-!clipboard-202310061012-pkruq.png!
-
-*Expected behavior:*
-El campo diferencia solo se pinta de rojo si el valor populado es distinto de cero y no lleva valor por defecto",Normal,,[Prueba de comprobación] El campo diferencia solo se pinta de rojo si el valor populado es distinto de cero y no lleva valor por defecto,2023-09-26,Severity,2023-10-07T15:56:34Z,Servitally,2023-10-06,2
-50,Bugs,False,-1,1,307,2,48814,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T14:11:15Z,IN PROGRESS,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Configuraciones de seguridad
-*Section/functionality:* Configuraciones de seguridad
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: clic en Configuraciones de seguridad de la opción Configuraciones del menú.
-* Step 3: Modificar los valores de los campos con valores fuera del rango permitido
-* Step 2: clic en el botón Salvar
-
-*System behavior:*
-Se cortan los mensajes de error en los campos correspondientes
-!clipboard-202310061009-x9cwb.png!
-!clipboard-202310061009-7bqtu.png!
-!clipboard-202310061010-wkzex.png!
-
-*Expected behavior:*
-",Normal,,[Configuraciones de seguridad] Se cortan los mensajes de error en los campos correspondientes,2023-10-05,Severity,2023-10-07T15:55:41Z,Servitally,2023-10-06,2
-100,Bugs,False,-1,1,307,2,48812,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:57:57Z,IN PROGRESS,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-* Step 4: la báscula activa alcanza el peso estable 
-* Step 5: clic en el boton 1era pesada
-* Step 4: la báscula no activa alcanza el peso estable 
-* Step 5: clic en el boton 2da pesada
-
-*System behavior:*
-no concatena ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada y diferencia.
-!clipboard-202310060956-5wbmt.png!
-
-*Expected behavior:*
-Se debe concatenar ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada y diferencia.",Normal,,"[Prueba de comprobación] Se debe concatenar ""Kg"" a los valores populados en los campos 1era pesada 2 dapesada y diferencia.",2023-09-26,Severity,2023-10-07T15:45:24Z,Servitally,2023-10-06,2
-50,Bugs,False,-1,1,307,2,48808,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:49:34Z,TO DO,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-
-*System behavior:*
-muestra valores por defectos en los campos básculas sin haber realizado las pesadas
-
-
-*Expected behavior:*
-Los campos básculas no llevan valores por defecto
-!clipboard-202310060948-ny5b2.png!
-",Normal,,[Prueba de comprobación] Los campos básculas no llevan valores por defecto,2023-09-26,Severity,2023-10-06T13:49:34Z,Servitally,2023-10-06,1
-0,Bugs,False,-1,1,307,2,48806,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:47:11Z,TO DO,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Pantalla principal
-*Section/functionality:* Pantalla principal
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: clic en recuperar vehículo eliminado de la opción Recuperar del menú.
-
-*System behavior:*
-No se están listando todos los vehiculos eliminados.
-!clipboard-202310060946-rjzix.png!
-
-*Expected behavior:*
- Se debe mostrar el listado de todos los vehiculos eliminados ordenado por fecha y hora de manera descendente",Normal,,[Recuperar vehículo eliminado] No se están listando todos los vehiculos eliminados.,2023-09-26,Severity,2023-10-06T13:47:11Z,Servitally,2023-10-06,1
-0,Bugs,False,-1,1,307,2,48805,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-06T13:44:52Z,TO DO,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Pantalla principal
-*Section/functionality:* Pantalla principal
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: clic en recuperar vehículo eliminado de la opción Recuperar del menú.
-
-*System behavior:*
-no se muestra el listado ordenado por fecha y hora de mannera descendente
-!clipboard-202310060944-uwfcr.png!
-
-*Expected behavior:*
- Se debe mostrar el listado ordenado por fecha y hora de manera descendente",Normal,,[Recuperar vehículo eliminado] Se debe mostrar el listado ordenado por fecha y hora de manera descendente,2023-09-26,Severity,2023-10-06T13:44:52Z,Servitally,2023-10-06,1
-100,Task,False,-1,2,302,2,48778,Dunaikelys Mesa,,-1,166,Dunaikelys Mesa,302,-1,-1,-1,2023-10-05T20:54:39Z,DONE,,Normal,,Crear build de la aplicación,2023-10-05,-1,2023-10-06T16:55:33Z,Servitally,2023-10-06,3
-0,Bugs,False,226,1,216,2,48768,Yoel Antonio  Casado González,,3,131,Yoel Antonio  Casado González,216,Last Sprint,-1,1,2023-10-05T20:03:31Z,READY TO QA,,Normal,,"[Delivery] Al ejecutar el cierre a un manifiesto que estaba con Estado Cierre Parcial, no captura la ultima fecha de cierre, mantiene la fecha del primer cierre ejecutado",2023-10-04,Severity,2023-10-06T20:50:01Z,gsi-Aerovaradero,,11
-100,Task,False,226,2,206,2,48765,Lena Alvarez,1.0,-1,131,Lena Alvarez,206,Last Sprint,-1,-1,2023-10-05T19:25:09Z,DONE,,Normal,,Imolementar que alerte cuando el comprobante exista en el manifiesto actual en el modal de escaneo,2023-10-05,-1,2023-10-05T19:25:19Z,gsi-Aerovaradero,2023-10-05,3
-0,Task,False,226,2,206,2,48764,Lena Alvarez,8.0,-1,131,Lena Alvarez,206,Last Sprint,-1,-1,2023-10-05T19:20:52Z,IN PROGRESS,,Normal,,Revision del problema en desconsolidacion al descargar manifiesto con la base de datos enviada por AeroVaradero,2023-10-05,-1,2023-10-05T19:21:00Z,gsi-Aerovaradero,2023-10-06,2
-0,Bugs,False,226,1,216,2,48720,Yoel Antonio  Casado González,,3,131,Yoel Antonio  Casado González,216,Last Sprint,-1,1,2023-10-05T14:32:49Z,READY TO QA,"Esta columna no se debe habilitar para ningun estado en el *Modificar*.
-
-",Normal,,[Delivery] Al Modificar un manifiesto sale habilitada la columna para eliminar facturas.,2023-10-04,Severity,2023-10-05T16:39:29Z,gsi-Aerovaradero,,11
-50,Bugs,False,-1,1,307,2,48719,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T14:03:46Z,IN PROGRESS,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Clic en el dashboard a la opción Prueba de repetibilidad
-
-*System behavior:*
-No permite insertar una nueva matrícula
-!clipboard-202310051002-qchlw.png!
-
-*Expected behavior:*
-Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.",Normal,,[Prueba de comprobación] La Matrícula es un campo autocompetable que debe permitir insertar y seleccionar una matrícula,2023-09-26,Severity,2023-10-06T03:50:34Z,Servitally,2023-10-06,2
-100,Bugs,False,-1,1,307,2,48718,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T14:01:28Z,DONE,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Clic en el dashboard a la opción Prueba de repetibilidad
-* Step 3: Seleccionar un CI
-
-*System behavior:*
-No se popula el nombre y apellido correspondiente al chofer seleccionado en el campo Nombre y apellidos.
-!clipboard-202310051000-fmjoy.png!
-
-*Expected behavior:*
-Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.",Normal,,[Prueba de comprobación] Al seleccionar un CI se debe popular el nombre y apellido correspondiente al chofer seleccionado.,2023-09-26,Severity,2023-10-06T03:49:14Z,Servitally,2023-10-06,3
-50,Bugs,False,-1,1,307,2,48717,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T14:00:25Z,IN PROGRESS,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-
-*System behavior:*
-No se muestran los campos alineados.
-!clipboard-202310050959-shncm.png!
-
-*Expected behavior:*
-La pantalla debe mostrarse acorde al diseño en figma.",Normal,,[Prueba de comprobación] No se muestran los campos alineados,2023-09-26,Severity,2023-10-06T03:47:23Z,Servitally,2023-10-06,2
-0,Bugs,False,-1,1,307,2,48715,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:57:52Z,IN PROGRESS,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-* Step 4: la báscula activa alcanza el peso estable 
-* Step 5: clic en el boton 1era pesada
-* Step 4: la báscula no activa alcanza el peso estable 
-* Step 5: clic en el boton 2da pesada
-
-*System behavior:*
-no se desbloquea la bascula no activa ni oculta el botón 2da pesada
-!clipboard-202310050956-rpcfx.png!
-
-*Expected behavior:*
- Al dar clic en el botón 2da pesada se debe desbloquear la báscula no activa y ocultar el botón 2da pesada",Normal,,[Prueba de comprobación] Al dar clic en el botón 2da pesada se debe desbloquear la báscula no activa y ocultar el botón 2da pesada,2023-09-26,Severity,2023-10-06T03:45:08Z,Servitally,2023-10-06,2
-100,Bugs,False,-1,1,307,2,48714,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:56:00Z,DONE,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-* Step 4: la báscula activa alcanza el peso estable 
-* Step 5: clic en el boton 1era pesada
-
-*System behavior:*
-no se desbloquea la bascula activa ni oculta el botón 1era pesada
-!clipboard-202310050955-yorhx.png!
-
-*Expected behavior:*
- Al dar clic en el botón 1era pesada se debe desbloquear la báscula activa y ocultar el botón 1era pesada",Normal,,[Prueba de comprobación] Al dar clic en el botón 1era pesada se debe desbloquear la báscula activa y ocultar el botón 1era pesada,2023-09-26,Severity,2023-10-06T03:38:56Z,Servitally,2023-10-06,3
-100,Bugs,False,-1,1,307,2,48713,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:53:00Z,DONE,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-* Step 4: la báscula activa alcanza el peso estable 
-* Step 5: clic en el boton 1era pesada
-* Step 6: la báscula no activa alcanza el epso estable
-* Step 7: clic en el botón segunda pesada
-
-
-*System behavior:*
-el botón Salvar se está mostrando deshabilitado antes de realizar la 2da pesada
-!clipboard-202310050952-tws8w.png!
-
-*Expected behavior:*
-el botón Salvar se está mostrando deshabilitado antes de realizar la 2da pesada",Normal,,[Prueba de comprobación] El botón Salvar solo se muestra luego de realizada la 2da pesada,2023-09-26,Severity,2023-10-06T03:35:38Z,Servitally,2023-10-06,3
-100,Bugs,False,-1,1,307,2,48712,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:51:15Z,DONE,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-* Step 4: la báscula activa alcanza el peso estable 
-* Step 5: clic en el boton 1era pesada
-
-
-*System behavior:*
-el botón 2da pesada se está mostrando deshabilitado antes de realizar la 1era pesada
-!clipboard-202310050950-w8g7o.png!
-
-*Expected behavior:*
-El botón 2da pesada solo se muestra luego de realizada la 1era pesada",Normal,,[Prueba de comprobación] El botón 2da pesada solo se muestra luego de realizada la 1era pesada,2023-09-26,Severity,2023-10-06T03:33:51Z,Servitally,2023-10-06,3
-100,Bugs,False,-1,1,307,2,48710,Arlen  Tamayo Labrada,,2,166,Maidelis  Jorge Reyes,220,-1,46766,1,2023-10-05T13:33:06Z,DONE,"*User:* Admin
-*Password:* Servitally.2022
-*Requirement:* Prueba de comprobación
-*Section/functionality:* Prueba de comprobación
-*Steps:*
-* Step 1: Acceder al sistema
-* Step 2: Seleccionar báscula 2
-* Step 2: Clic en el dashboard a la opción Prueba de comprobación
-* Step 4: la báscula activa alcanza el peso estable 
-
-*System behavior:*
-No se habilita el botón 1era pesada
-!clipboard-202310050932-32wla.png!
-
-*Expected behavior:*
-El botón 1era pesada debe habilitarse cuando la báscula activa seleccionada tenga un peso estable.",Normal,,[Prueba de comprobación] El botón 1era pesada debe habilitarse cuando la báscula activa seleccionada tenga un peso estable.,2023-09-26,Severity,2023-10-06T03:32:33Z,Servitally,2023-10-06,3
+https://drive.google.com/file/d/1lIQqhFEIV2sn4qM0EEZ6bOww2pOGGCre/view?usp=sharing",11,2023-09-14T15:28:10Z,377,False,Feature,TO DO,1,2023-09-14,12,22,2023-09-27T14:17:00Z,,Alejandro Rosete,-1,12,2,16.0,Normal,,2. Asimilar esencias de libro seleccionado de AWS,Data_Project,Alejandro Rosete,2
+,11,2023-09-14T14:04:11Z,376,False,Feature,IN PROGRESS,2,2023-09-14,12,80,2023-09-19T00:27:20Z,2023-09-17,Alejandro Rosete,365,12,2,2.0,Normal,,Preparar prueba de conocimiento esenciales Parte 1 y Parte 2,Data_Project,Alejandro Rosete,2
+,11,2023-09-14T14:02:30Z,375,False,Feature,TO DO,1,2023-09-15,12,0,2023-09-14T15:51:04Z,2023-09-18,Alejandro Rosete,365,12,2,1.0,Normal,,Prueba rápida sobre conocimientos Parte 1 Libro,Data_Project,Alejandro Rosete,2
+,11,2023-09-14T13:53:53Z,374,False,Feature,TO DO,1,2023-09-18,15,0,2023-09-14T14:00:44Z,,Victor Manuel Sire Martinez,365,12,2,5.0,Normal,,"1.3. Lectura parte 3 final (Cap 10-11, Apendices A, B)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T13:53:36Z,373,False,Feature,TO DO,1,2023-09-18,14,0,2023-09-14T14:00:35Z,,Leonardo Perez,365,12,2,5.0,Normal,,"1.3. Lectura parte 3 final (Cap 10-11, Apendices A, B)",Data_Project,Alejandro Rosete,2
+,11,2023-09-14T13:48:14Z,371,False,Feature,TO DO,1,2023-09-14,15,0,2023-09-14T13:59:38Z,,Victor Manuel Sire Martinez,365,12,2,6.0,Normal,,1.2. Lectura parte 2 libro (Cap 5-9),Data_Project,Alejandro Rosete,2
+,11,2023-09-14T13:46:23Z,369,False,Feature,Resolved,3,2023-09-14,13,70,2023-09-27T14:17:38Z,,Camilo Chamorro Calas,365,12,2,6.0,Normal,,1.2. Lectura parte 2 libro (Cap 5-9),Data_Project,Alejandro Rosete,2
+,11,2023-09-14T13:28:58Z,368,False,Feature,TO DO,1,2023-09-14,15,0,2023-09-14T13:55:24Z,,Victor Manuel Sire Martinez,365,12,2,4.0,Normal,,1.1. Lectura Parte 1 libro (Hasta final del Cap 4),Data_Project,Alejandro Rosete,2
+,11,2023-09-14T13:28:43Z,367,False,Feature,TO DO,1,2023-09-14,14,0,2023-09-14T13:55:03Z,,Leonardo Perez,365,12,2,4.0,Normal,,1.1. Lectura Parte 1 libro (Hasta final del Cap 4),Data_Project,Alejandro Rosete,2
+,11,2023-09-14T13:28:25Z,366,False,Feature,Resolved,3,2023-09-14,13,100,2023-09-14T20:39:38Z,,Camilo Chamorro Calas,365,12,2,4.0,Normal,,1.1. Lectura Parte 1 libro (Hasta final del Cap 4),Data_Project,Alejandro Rosete,2
+https://drive.google.com/file/d/1An2DMGrwFSyWWUnXay8pCVWCwfYGASbR/view?usp=sharing,11,2023-09-14T13:25:50Z,365,False,Feature,IN PROGRESS,2,2023-09-14,12,42,2023-09-27T14:16:33Z,2023-09-18,Alejandro Rosete,-1,12,2,,Normal,,1. Asimilar conceptos esenciales de Ing Datos,Data_Project,Alejandro Rosete,2
+,1,2023-08-08T01:46:33Z,358,False,Feature,TO DO,1,2023-08-08,5,0,2023-08-08T01:46:33Z,,Yasmiany PM,-1,6,2,,Normal,,prueba,Prueba uno,Jose Osorio,2
