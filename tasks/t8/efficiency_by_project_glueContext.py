@@ -92,7 +92,7 @@ for project in all_projects:
         task_delayed = 0
         task_accomplished = 0
         task_scheduled = 0
-        p_eff = 0
+        p_eff = 0.0
         project_issues = get_issues(all_issues, project["id"])
 
         for issue in project_issues:
@@ -119,20 +119,20 @@ for project in all_projects:
         if task_scheduled > 0:
             p_eff = ((task_accomplished - task_delayed) / task_scheduled) * 100
 
-            month_year_str = datetime.datetime.strftime(initial_date_date, "%m-%Y")
-            month, year = month_year_str.split("-")
-            record = {
-                "id": f"{project['id']}_{month_year_str}",
-                "project_id": project["id"],
-                "project_name": project["name"],
-                "month": month,
-                "year": year,
-                "tasks_acomplished": task_accomplished,
-                "tasks_delayed": task_delayed,
-                "tasks_scheduled": task_scheduled,
-                "efficiency": p_eff,
-            }
-            projects_efficiency.append(record)
+        month_year_str = datetime.datetime.strftime(initial_date_date, "%m-%Y")
+        month, year = month_year_str.split("-")
+        record = {
+            "id": f"{project['id']}_{month_year_str}",
+            "project_id": project["id"],
+            "project_name": project["name"],
+            "month": month,
+            "year": year,
+            "tasks_acomplished": task_accomplished,
+            "tasks_delayed": task_delayed,
+            "tasks_scheduled": task_scheduled,
+            "efficiency": p_eff,
+        }
+        projects_efficiency.append(record)
 
         initial_date_date = generate_same_day_of_next_month(initial_date_date)
 
